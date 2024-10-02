@@ -20,11 +20,11 @@ public class CRUD_carpintero implements MouseListener, KeyListener {
         this.Vista = vista;
 
         // Asociar eventos de mouse a los botones
-        vista.btnAgregar.addMouseListener(this);
-        vista.btnEliminar.addMouseListener(this);
-        vista.btnAgregar.addMouseListener(this);
-        vista.txtNombre2.addKeyListener(this);
-        vista.tbCarpintero.addMouseListener(this);
+        Vista.btnAgregar.addMouseListener(this);
+        Vista.btnEliminar.addMouseListener(this);
+        Vista.btnAgregar.addMouseListener(this);
+        Vista.txtNombre2.addKeyListener(this);
+        Vista.tbCarpintero.addMouseListener(this);
 
         modelo.Mostrar(vista.tbCarpintero);
     }
